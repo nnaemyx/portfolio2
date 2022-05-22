@@ -38,11 +38,11 @@ const Footer = () => {
                         new projects and design Challenges.
                     </p>
                     <div className="social">
-                        <Link to="https://www.facebook.com/edeh.johnpaul.7982/" >
+                        <a href="https://www.facebook.com/edeh.johnpaul.7982" >
                            <FaFacebook size={30} style={{color: 
                                 "white", marginRight:"2rem"}} 
                             />
-                        </Link>
+                        </a>
                         
 
                         <Link to="https://www.facebook.com/edeh.johnpaul.7982/" >
