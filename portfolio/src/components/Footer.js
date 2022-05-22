@@ -2,6 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 import {FaFacebook, FaHome, FaInstagram, FaMailBulk, FaPhone, FaWhatsapp} from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return  (
@@ -32,19 +33,29 @@ const Footer = () => {
                 </div>
                 <div className="right">
                     <h4>About the company</h4>
-                    <p>This is me edeh johnpaul chukwuemeka, CEO
+                    <p>I'M edeh johnpaul chukwuemeka, CEO
                         Founder of WebStudio. I enjoy discussing 
                         new projects and design Challenges.
                     </p>
                     <div className="social">
-                        <FaFacebook size={30} style={{color: 
-                            "white", marginRight:"2rem"}} />
-                            edehjohnpaul@gmail.com
-                        <FaWhatsapp size={30} style={{color: 
-                            "white", marginRight:"2rem"}} />
-                    
-                        <FaInstagram size={30} style={{color: 
-                            "white", marginRight:"2rem"}} />
+                        <Link to="https://www.facebook.com/edeh.johnpaul.7982/" >
+                           <FaFacebook size={30} style={{color: 
+                                "white", marginRight:"2rem"}} 
+                            />
+                        </Link>
+                        
+
+                        <Link to="https://www.facebook.com/edeh.johnpaul.7982/" >
+                           <FaInstagram size={30} style={{color: 
+                                "white", marginRight:"2rem"}} 
+                            />
+                        </Link>
+
+                        <Link to="https://www.facebook.com/edeh.johnpaul.7982/" >
+                           <FaWhatsapp size={30} style={{color: 
+                                "white", marginRight:"2rem"}} 
+                            />
+                        </Link>
                            
                     </div>   
                     
